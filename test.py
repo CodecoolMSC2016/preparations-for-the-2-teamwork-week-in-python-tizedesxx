@@ -4,7 +4,10 @@ import unittest
 
 
 def IsOdd(n):
-    return
+    if n % 2 == 0:
+        return False
+    elif n % 2 == 1:
+        return True
 
 # Here's our "unit tests".
 
